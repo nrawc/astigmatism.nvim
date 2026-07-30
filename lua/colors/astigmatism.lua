@@ -89,6 +89,7 @@ set(0, "Special",          { fg = colors.orange })
 set(0, "WarningMsg",       { fg = colors.warning })
 set(0, "Error",            { fg = colors.error })
 set(0, "Operator",         { fg = colors.keyword})
+set(0, "Title",            { fg = colors.keyword})
 
 -- Diagnostics
 set(0, "DiagnosticError",  { fg = colors.red })
