@@ -29,7 +29,7 @@ local colors = {
     cursor_line  = "#0f0f0f",
     color_column = "#0f0f0f",
     lualine_fg   = "#AF9374",
-    lualine_bg   = "#000000",
+    lualine_bg   = "#121212",
 
     dimmed_keyword  = "#b0b0b0",
     dimmed_function = "#cccccc",
