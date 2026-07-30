@@ -1,6 +1,6 @@
 ## astigmatism.nvim
 
-A dark Neovim color scheme for people with astigmatism. Astigmatism can cause high contrast or high saturation text to appear to glow or blur even with glasses. This color scheme attempts to fix that.
+A dark Neovim color scheme for people with astigmatism. Astigmatism can cause high contrast or highly saturated text to appear to glow or blur even with glasses. This color scheme attempts to fix that.
 
 ![Screenshot](screenshots/example_1.png)
 
@@ -26,3 +26,5 @@ Then add this to your init.lua to enable the colorscheme.
 vim.cmd.colorscheme('astigmatism')
 ```
 
+### Note from the author
+I am not a doctor, just a programmer with astigmatism that made this plugin for himself. I personally can read code much better now. If it helps anyone else cool.
