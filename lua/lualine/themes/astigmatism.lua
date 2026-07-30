@@ -1,4 +1,4 @@
-local c = require("colors.owly")
+local c = require("colors.astigmatism")
 
 return {
   normal = {

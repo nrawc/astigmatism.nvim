@@ -40,7 +40,7 @@ local colors = {
 
 vim.cmd("highlight clear")
 vim.o.background = "dark"
-vim.g.colors_name = "owly"
+vim.g.colors_name = "astigmatism"
 
 local set = vim.api.nvim_set_hl
 
