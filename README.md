@@ -1,4 +1,4 @@
-## Astigmatism Neovim
+## astigmatism.nvim
 
 A dark Neovim color scheme for people with astigmatism. Astigmatism can cause high contrast or high saturation text to appear to glow or blur even with glasses. This color scheme attempts to fix that.
 
