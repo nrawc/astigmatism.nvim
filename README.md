@@ -27,4 +27,4 @@ vim.cmd.colorscheme('astigmatism')
 ```
 
 ### Note from the author
-I am not a doctor, just a programmer with astigmatism who made this plugin for himself. I personally can read code much better now. If it helps anyone else cool.
+I am not a doctor, just a programmer with astigmatism who made this plugin for himself. I personally can read code much better now. If it helps anyone else, cool.
