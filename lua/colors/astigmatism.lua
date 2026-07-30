@@ -1,11 +1,11 @@
 local colors = {
     yellow     = "#E6DB74",
     orange     = "#567425",
-    red        = "#ff0000",
-    magenta    = "#FD5FF0",
-    blue       = "#FD971F",
-    green      = "#A6E22E",
-    cyan       = "#53d549",
+    red        = "#ff5c5c",
+    magenta    = "#fc8bf3",
+    blue       = "#fca644",
+    green      = "#00a800",
+    cyan       = "#64d65c",
     violet     = "#AE81FF",
 
     background   = "#1f1f1f",
@@ -17,19 +17,19 @@ local colors = {
     keyword      = "#aa759f",
     variable     = "#AF9374",
     function_    = "#AF9374",
-    string       = "#3ad0b5",
+    string       = "#4bd1b9",
     constant     = "#668535",
     macro        = "#668535",
-    number       = "#d1833f",
+    number       = "#f4bf75",
     white        = "#aa759f",
-    error        = "#ff0000",
+    error        = "#ff5c5c",
     warning      = "#ffaa00",
     highlight    = "#334230",
     line_fg      = "#2F342D",
-    cursor_line  = "#1f1f1f",
+    cursor_line  = "#0f0f0f",
     color_column = "#0f0f0f",
     lualine_fg   = "#AF9374",
-    lualine_bg   = "#151515",
+    lualine_bg   = "#000000",
 
     dimmed_keyword  = "#b0b0b0",
     dimmed_function = "#cccccc",
@@ -42,9 +42,6 @@ vim.cmd("highlight clear")
 vim.o.background = "dark"
 vim.g.colors_name = "astigmatism"
 
--- some colors im testing
--- #f4bf75
--- #aa759f
 local set = vim.api.nvim_set_hl
 
 -- Core UI
@@ -94,6 +91,7 @@ set(0, "DiagnosticError",  { fg = colors.red })
 set(0, "DiagnosticWarn",   { fg = colors.warning })
 set(0, "DiagnosticInfo",   { fg = colors.blue })
 set(0, "DiagnosticHint",   { fg = colors.cyan })
+set(0, "Test",             { fg = colors.magenta})
 
 -- Rainbow delimiters (optional)
 set(0, "rainbowcol1", { fg = colors.violet })
