@@ -8,20 +8,20 @@ local colors = {
     cyan       = "#53d549",
     violet     = "#AE81FF",
 
-    background   = "#000000",
+    background   = "#1f1f1f",
     gutter       = "#4B5345",
     selection    = "#334230",
     text         = "#AF9374",
     comment      = "#4a4a4a",
     punctuation  = "#AF9374",
-    keyword      = "#ffffff",
+    keyword      = "#aa759f",
     variable     = "#AF9374",
     function_    = "#AF9374",
     string       = "#3ad0b5",
     constant     = "#668535",
     macro        = "#668535",
     number       = "#d1833f",
-    white        = "#ffffff",
+    white        = "#aa759f",
     error        = "#ff0000",
     warning      = "#ffaa00",
     highlight    = "#334230",
@@ -42,6 +42,9 @@ vim.cmd("highlight clear")
 vim.o.background = "dark"
 vim.g.colors_name = "astigmatism"
 
+-- some colors im testing
+-- #f4bf75
+-- #aa759f
 local set = vim.api.nvim_set_hl
 
 -- Core UI
