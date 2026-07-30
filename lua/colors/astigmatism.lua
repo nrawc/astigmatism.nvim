@@ -66,6 +66,9 @@ set(0, "WinBarNC",         { bg = colors.background })
 set(0, "NormalFloat",      { fg = colors.text, bg = colors.lualine_bg })
 set(0, "FloatBorder",      { fg = colors.line_fg, bg = colors.lualine_bg })
 
+-- Mini indent scope plugin
+set(0, "MiniIndentscopeSymbol", { link = "Comment" })
+
 -- Trouble
 set(0, "TroubleNormal",    { fg = colors.text, bg = colors.background })
 set(0, "TroubleNormalNC",  { fg = colors.text, bg = colors.background })
